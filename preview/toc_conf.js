@@ -3,7 +3,7 @@ var jquery_ztree_toc_opts = {
     is_auto_number:true,
     documment_selector:'.markdown-body',
     ztreeStyle: {
-        width:'326px',
+        width:'310px',
         overflow: 'auto',
         position: 'fixed',
         'z-index': 2147483647,
@@ -16,5 +16,6 @@ var jquery_ztree_toc_opts = {
 }
 var markdown_panel_style = {
     'width':'70%',
-    'margin-left':'25%'
+    'margin-left':'25%',
+    'color':'deeppink'
 };
