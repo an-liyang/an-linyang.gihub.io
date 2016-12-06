@@ -43,25 +43,7 @@ border-radius:@ radius;
 2. .函数名(参数1，参数2){};
 ###
 你也可以定义不带参数属性集合,如果你想隐藏这个属性集合，不让它暴露到CSS中去，但是你还想在其他的属性集合中引用，你会发现这个方法非常的好用:
-```js
-.wrap () {
-  text-wrap: wrap;
-  white-space: pre-wrap;
-  white-space: -moz-pre-wrap;
-  word-wrap: break-word;
-}
 
-pre { .wrap }
-
-输出:
-
-pre {
-  text-wrap: wrap;
-  white-space: pre-wrap;
-  white-space: -moz-pre-wrap;
-  word-wrap: break-word;
-}
-```
 ## @arguments 变量
 
 ### 
